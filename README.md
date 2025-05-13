@@ -1,14 +1,15 @@
 Employee Management System (Local Storage Version)
 A simple web-based Employee Management System using pure HTML, CSS, and JavaScript with Local Storage support.
+
 It allows you to:
 
-Add employees.
+✅ Add employees.
 
-View employee data in a table.
+✅ View employee data in a table.
 
-Delete employees.
+✅ Delete employees.
 
-Persist data in the browser even after page reloads.
+✅ Persist data in the browser even after page reloads.
 
 🛠 Features
 Add employee with:
@@ -37,21 +38,18 @@ EmployeeManagementSYS/
 ├── employee.html     # Main webpage
 ├── employee.js       # JavaScript logic (add, delete, storage)
 ├── style.css         # Styling for the UI
+├── Screenshot.png     # UI Screenshot 
 └── README.md
 
-etting Started
-1. Clone or Download the project
-bash
-Copy
-Edit
-git clone <https://github.com/MuniVinay9/EmployeeManagementSYS>
 
+🚀 Getting Started
+1. Clone or Download the project
+git clone https://github.com/MuniVinay9/EmployeeManagementSYS
 
 2. Open employee.html in your browser
 Simply double-click employee.html or right-click and select Open with browser.
 
-
-💾 How Local Storage Works Here
+💾 How Local Storage Works
 On Form Submit:
 
 Captures employee data.
@@ -73,27 +71,28 @@ Removes the row from the table.
 Updates local storage by removing the selected employee using their email.
 
 🖼 Screenshot
-![Employee Management UI](Screenshot (228).png)
+
+![Employee Management UI](./Screenshot(228).png)
 
 💡 Technologies Used
+
 HTML5
-
 CSS3 (Flexbox & Grid)
-
 JavaScript (DOM Manipulation & Local Storage API)
 
 📚 How to Customize
-You can modify the employee fields by updating the form in employee.html.
+Modify the employee fields by updating the form in employee.html.
 
-Styling can be adjusted in style.css.
+Adjust styling in style.css.
 
-The logic can be enhanced in employee.js.
+Enhance or modify logic in employee.js.
 
-🌟 Future Improvements (optional ideas)
+🌟 Future Improvements (Ideas)
 Add Edit functionality.
 
-Add validation for duplicate emails.
+Validate duplicate emails.
 
 Export employee data as CSV.
 
-Improve UI with Bootstrap or Tailwind.
+Improve UI using Bootstrap or Tailwind CSS.
+
