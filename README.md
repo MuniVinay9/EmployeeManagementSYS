@@ -35,10 +35,10 @@ Data stored in browser's Local Storage.
 📁 Project Structure
 
 EmployeeManagementSYS/
-├── employee.html     # Main webpage
-├── employee.js       # JavaScript logic (add, delete, storage)
-├── style.css         # Styling for the UI
-├── Screenshot.png     # UI Screenshot 
+├── index.html     
+├── employee.js       
+├── style.css         
+├── Screenshot.png     
 └── README.md
 
 
