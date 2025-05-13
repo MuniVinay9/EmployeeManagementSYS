@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <h1 style="padding: 10px; text-align: center;">EMPLOYEE DATA</h1>
+            <form class="form">
+            <input type="text" name="name" id="employeeName" required placeholder="Name">
+            <input type="email" name="email" id="emailId" required placeholder="email@gmail.com">
+            <input type="number" name="salary" id="salary" required placeholder="Salary">
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">others</option>
+            </select>
+            <input type="text" name="companyName" id="companyName" required placeholder="Company Name">
+            <select name="role" id="role">
+                <option value="SDE">SDE</option>
+                <option value="QA">QA</option>
+                <option value="product Analyst">product Analyst</option>
+            </select>
+            <button id="addEmployee">Add Employee  </button>
+        </form>
+        </div>
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Salary</th>
+                        <th>Gender</th>
+                        <th>Company Name</th>
+                        <th>Role</th>
+                        <th>Options</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="employee.js"></script>
+</body>
+</html>
